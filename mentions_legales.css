@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    background-color: rgb(87, 156, 135);
+    text-align: center;
+    color: rgb(253, 203, 70);
+    font-size: 120px;
+    border: 10px solid rgb(87, 156, 135);
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+a {
+    color: rgb(253, 203, 70);
+}
+
+h2 {
+    color: rgb(253, 203, 70);
+    font-size: 28px;
+}
+
+section {
+    background-color: rgb(249, 249, 249);
+    text-align: justify;
+    margin: 3%;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+    background-color: rgb(87, 156, 135);
+    color: rgb(253, 203, 70);
+    font-size: 30px;
+}
+
+.Page_principale {
+    padding-left: 4%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Contactez {
+    text-align: right;
+    padding-right: 4%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@media screen and (max-width: 1024px) {
+    h1 {
+        font-size: 85px;
+    }
+
+    footer {
+        font-size: 20px;
+    }
+
+    h2{
+        font-size: 24px;
+    }
+
+    section{
+        font-size: 14px;
+    }

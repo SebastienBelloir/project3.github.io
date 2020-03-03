@@ -1,0 +1,192 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    color: rgb(253, 203, 70);
+}
+
+.btn {
+    background-color: rgb(87, 156, 135);
+    color: rgb(253, 203, 70);
+    text-align: center;
+    font-size: 35px;
+    max-width: 500px;
+    padding: 0px;
+    margin-top: 8%;
+    margin-bottom: 5%;
+    margin-left: 38%;
+    border: 2px solid rgb(253, 203, 70);
+    border-radius: 25px;
+    cursor: pointer;
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 450ms;
+
+    &:hover {
+        transform: scale(1.15);
+    }
+}
+
+#menu {
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+}
+
+h1 {
+    background-color: rgb(87, 156, 135);
+    text-align: center;
+    color: rgb(253, 203, 70);
+    font-size: 115px;
+    border: 10px solid rgb(87, 156, 135);
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.container {
+    height: 800px;
+    width: 565px;
+    margin-left: 30%;
+    margin-top: 10%;
+    border: 1px solid rgb(252, 223, 219);
+    box-shadow: 2px 0px 16px 0px grey;
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 450ms;
+
+    &:hover {
+        transform: translate(-150px, -7vh);
+        box-shadow: 6px 0px 15px 0px grey;
+        height: 800px;
+    }
+}
+
+.container2 {
+    height: 800px;
+    width: 565px;
+    margin-left: 5%;
+    margin-top: 10%;
+    border: 1px solid rgb(255, 245, 254);
+    box-shadow: 2px 0px 16px 0px grey;
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 450ms;
+
+    &:hover {
+        transform: translate(150px, -7vh);
+        box-shadow: 6px 0px 15px 0px grey;
+        height: 800px;
+    }
+}
+
+.container3 {
+    height: 800px;
+    width: 565px;
+    margin-left: 30%;
+    margin-top: 10%;
+    border: 1px solid rgb(249, 249, 249);
+    box-shadow: 2px 0px 16px 0px grey;
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 450ms;
+
+    &:hover {
+        transform: translate(-150px, 7vh);
+        box-shadow: 6px 0px 15px 0px grey;
+        height: 800px;
+    }
+}
+
+.container4 {
+    height: 800px;
+    width: 565px;
+    margin-left: 5%;
+    margin-top: 10%;
+    border: 1px solid white;
+    box-shadow: 2px 0px 16px 0px grey;
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 450ms;
+
+    &:hover {
+        transform: translate(150px, 7vh);
+        box-shadow: 6px 0px 15px 0px grey;
+        height: 800px;
+    }
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+    background-color: rgb(87, 156, 135);
+    color: rgb(253, 203, 70);
+    font-size: 30px;
+}
+
+.Contactez {
+    text-align: right;
+    padding-right: 4%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.mentions {
+    padding-left: 4%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        width: auto;
+        height: auto;
+        box-sizing: border-box;
+    }
+
+    #menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 85px;
+        width: auto;
+    }
+
+    footer {
+        font-size: 20px;
+    }
+
+    .prochainement {
+        font-size: 20px;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    img,
+    .container,
+    .container2,
+    .container3,
+    .container4 {
+        text-align: center;
+        height: 550px;
+        width: 350px;
+        transform: scale(1);
+        transition-property: transform;
+        transition-duration: 450ms;
+
+        &:hover {
+            transform: scale(1.05);
+            box-shadow: 6px 0px 15px 0px grey;
+            height: 550px;
+        }
+
+    }
+.container, .container3, .container2, .container4{
+    margin-left: 15%;
+}
+
+}
