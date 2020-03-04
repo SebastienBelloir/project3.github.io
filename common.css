@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    box-sizing: border-box
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+a {
+    color: #fdcb46;
+    text-decoration: none
+}
+
+header {
+    display: flex;
+    background-color: #579c87;
+    justify-content: center
+}
+
+h1 {
+    font-size: 95px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fdcb46
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    padding-bottom: 1%;
+    background-color: #579c87;
+    color: #fdcb46;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.Contactez {
+    text-align: right;
+    padding-right: 4%
+}
+
+.mentions {
+    padding-left: 4%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.wiggle:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg)
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg)
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg)
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg)
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg)
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg)
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg)
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg)
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg)
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg)
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg)
+    }
+}
