@@ -1,19 +1,19 @@
 #menus_haut{
-    display: grid;
-    grid-template-columns: 4fr 4fr;
-    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
 }
 
 #menus_bas{
-    display: grid;
-    grid-template-columns: 4fr 4fr;
-    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
 }
 
 .container {
     height: 800px;
     width: 565px;
-    margin-left: 33%;
+    margin-right: 100px;
     background-color: #fcdfdb;
     border: 1px solid #fcdfdb;
     box-shadow: 2px 0px 16px 0px grey
@@ -22,27 +22,25 @@
 .container2 {
     height: 800px;
     width: 565px;
-    margin-left: 8%;
-    background-color: #fcdfdb;
-    border: 1px solid #fcdfdb;
+    background-color: rgb(255, 245, 254);
+    border: 1px solid rgb(255, 245, 254);
     box-shadow: 2px 0px 16px 0px grey
 }
 
 .container3 {
     height: 800px;
     width: 565px;
-    margin-left: 33%;
-    background-color: #fcdfdb;
-    border: 1px solid #fcdfdb;
+    margin-right: 100px;
+    background-color: rgb(241, 241, 241);
+    border: 1px solid rgb(241, 241, 241);
     box-shadow: 2px 0px 16px 0px grey
 }
 
 .container4 {
     height: 800px;
     width: 565px;
-    margin-left: 8%;
-    background-color: #fcdfdb;
-    border: 1px solid #fcdfdb;
+    background-color: white;
+    border: 1px solid white;
     box-shadow: 2px 0px 16px 0px grey
 }
 
@@ -54,18 +52,20 @@
 }
 
 .nom_menu1{
-    margin-left: 28%;
+    font-family: 'Courgette', cursive;
+    margin-left: 23%;
     margin-top: 2%;
     color:rgb(61, 19, 25);
-    font-size: 30px;
+    font-size: 37px;
 }
 
 .menu_type1{
-    margin-left: 40%;
+    font-style: italic;
+    margin-left: 36%;
     margin-bottom: 50%;
     margin-top: 3%;
     color: rgb(61, 19, 25);
-    font-size: 50px;
+    font-size: 55px;
 }
 
 .note_musique{
@@ -77,6 +77,62 @@
     width: 90px;
 }
 
+.nom_menu2{
+    font-family: 'Patrick Hand', cursive;
+    margin-left: 17%;
+    margin-top: 56%;
+    font-size: 50px;
+    background: -webkit-linear-gradient(-360deg, rgb(199,116,18), rgb(143, 90, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.menu_type2{
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    margin-left: 38%;
+    margin-top: 3%;
+    font-size: 60px;
+    color: rgb(199, 116, 18);
+}
+
+.nom_menu3{
+    font-family: 'Dancing Script', cursive;
+    margin-top: 54%;
+    margin-left: 17%;
+    font-size: 50px;
+    background: -webkit-linear-gradient(-360deg, rgb(0, 34, 168), rgb(87, 230, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.menu_type3{
+    font-family: 'Caveat', cursive;
+    margin-left: 34%;
+    margin-top: 13%;
+    font-size: 80px;
+    color: rgb(0, 34, 168) ;
+}
+
+.nom_menu4{
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+    margin-top: 53%;
+    margin-left: 19%;
+    font-size: 57px;
+    background: -webkit-linear-gradient(360deg, rgb(73,156,64), rgb(128, 255, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.menu_type4{
+    font-family: 'Caveat', cursive;
+    margin-left: 35%;
+    margin-top: 13%;
+    font-size: 80px;
+    color: rgb(73, 156, 64);
+}
+
 .effect{
     transform: scale(1);
     transition: transform 1000ms ease-in-out;
@@ -84,17 +140,16 @@
 }
 
 .effect:hover {
-    transform: scale(1.30);
-    opacity: 0.75;
+    transform: scale(1.15);
+    opacity: 0.70;
 }
 
-
-#bouton {
+#prochainement {
     display: flex;
     justify-content: center;
-    font-size: 45px;
-    margin-top: 5%;
-    margin-bottom: 8%;
+    font-size: 40px;
+    margin-top: 7%;
+    margin-bottom: 10%;
     margin-left: 35%;
     margin-right: 35%;
     background-color: #579c87;
@@ -102,3 +157,17 @@
     border-radius: 18px;
     color: #fdcb46
 }
+
+.suspension_anime:after{
+    display: inline-block;
+    animation: suspension steps(1,end) 2s infinite;
+    content: '';
+}
+
+  @keyframes suspension {
+    0%   { content: ''; }
+    25%  { content: '.'; }
+    50%  { content: '..'; }
+    75%  { content: '...'; }
+    100% { content: ''; }
+  }

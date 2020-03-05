@@ -9,6 +9,13 @@ section {
     margin: 3%;
 }
 
+article{
+    padding: 2%;
+    margin-bottom: 8%;
+}
 .Page_principale{
     padding-left: 4%;
+}
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
