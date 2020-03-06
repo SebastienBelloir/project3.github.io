@@ -1,10 +1,10 @@
-#menus_haut{
+#menus_haut {
     display: flex;
     justify-content: center;
     margin-top: 100px;
 }
 
-#menus_bas{
+#menus_bas {
     display: flex;
     justify-content: center;
     margin-top: 100px;
@@ -44,22 +44,23 @@
     box-shadow: 2px 0px 16px 0px grey
 }
 
-.menus1_3, .menus2_4{
+.menus1_3,
+.menus2_4 {
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 100%;
 }
 
-.nom_menu1{
+.nom_menu1 {
     font-family: 'Courgette', cursive;
     margin-left: 23%;
     margin-top: 2%;
-    color:rgb(61, 19, 25);
+    color: rgb(61, 19, 25);
     font-size: 37px;
 }
 
-.menu_type1{
+.menu_type1 {
     font-style: italic;
     margin-left: 36%;
     margin-bottom: 50%;
@@ -68,26 +69,26 @@
     font-size: 55px;
 }
 
-.note_musique{
+.note_musique {
     margin: auto;
     margin-top: 48%;
     margin-bottom: 1%;
-    margin-left:42% ;
+    margin-left: 42%;
     height: 80px;
     width: 90px;
 }
 
-.nom_menu2{
+.nom_menu2 {
     font-family: 'Patrick Hand', cursive;
     margin-left: 17%;
     margin-top: 56%;
     font-size: 50px;
-    background: -webkit-linear-gradient(-360deg, rgb(199,116,18), rgb(143, 90, 255));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(-360deg, rgb(199, 116, 18), rgb(143, 90, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-.menu_type2{
+.menu_type2 {
     font-family: 'PT Serif', serif;
     font-weight: bold;
     margin-left: 38%;
@@ -96,7 +97,7 @@
     color: rgb(199, 116, 18);
 }
 
-.nom_menu3{
+.nom_menu3 {
     font-family: 'Dancing Script', cursive;
     margin-top: 54%;
     margin-left: 17%;
@@ -106,26 +107,26 @@
     -webkit-text-fill-color: transparent;
 }
 
-.menu_type3{
+.menu_type3 {
     font-family: 'Caveat', cursive;
     margin-left: 34%;
     margin-top: 13%;
     font-size: 80px;
-    color: rgb(0, 34, 168) ;
+    color: rgb(0, 34, 168);
 }
 
-.nom_menu4{
+.nom_menu4 {
     font-family: 'Caveat', cursive;
     font-weight: bold;
     margin-top: 53%;
     margin-left: 19%;
     font-size: 57px;
-    background: -webkit-linear-gradient(360deg, rgb(73,156,64), rgb(128, 255, 0));
+    background: -webkit-linear-gradient(360deg, rgb(73, 156, 64), rgb(128, 255, 0));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.menu_type4{
+.menu_type4 {
     font-family: 'Caveat', cursive;
     margin-left: 35%;
     margin-top: 13%;
@@ -133,7 +134,7 @@
     color: rgb(73, 156, 64);
 }
 
-.effect{
+.effect {
     transform: scale(1);
     transition: transform 1000ms ease-in-out;
     opacity: 1;
@@ -144,7 +145,7 @@
     opacity: 0.70;
 }
 
-#prochainement {
+.prochainement {
     display: flex;
     justify-content: center;
     font-size: 40px;
@@ -158,16 +159,477 @@
     color: #fdcb46
 }
 
-.suspension_anime:after{
+.suspension_anime:after {
     display: inline-block;
-    animation: suspension steps(1,end) 2s infinite;
+    animation: suspension steps(1, end) 2s infinite;
     content: '';
 }
 
-  @keyframes suspension {
-    0%   { content: ''; }
-    25%  { content: '.'; }
-    50%  { content: '..'; }
-    75%  { content: '...'; }
-    100% { content: ''; }
-  }
+@keyframes suspension {
+    0% {
+        content: '';
+    }
+
+    25% {
+        content: '.';
+    }
+
+    50% {
+        content: '..';
+    }
+
+    75% {
+        content: '...';
+    }
+
+    100% {
+        content: '';
+    }
+}
+
+
+@media screen and (max-width: 1260px) {
+
+    #menus_haut,
+    #menus_bas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container {
+        height: 800px;
+        width: 565px;
+        margin-bottom: 80px;
+        margin-left: 98px;
+    }
+
+    .container2 {
+        height: 800px;
+        width: 565px;
+    }
+
+    .container3 {
+        height: 800px;
+        width: 565px;
+        margin-bottom: 80px;
+        margin-left: 98px;
+        margin-top: -22px;
+    }
+
+    .container4 {
+        height: 800px;
+        width: 565px;
+        margin-bottom: 80px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    #menus_haut,
+    #menus_bas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container {
+        height: 650px;
+        width: 425px;
+        margin-bottom: 80px;
+        margin-left: 98px;
+    }
+
+    .container2 {
+        height: 650px;
+        width: 425px;
+    }
+
+    .container3 {
+        height: 650px;
+        width: 425px;
+        margin-bottom: 80px;
+        margin-left: 98px;
+        margin-top: -22px;
+    }
+
+    .container4 {
+        height: 650px;
+        width: 425px;
+        margin-bottom: 80px;
+    }
+
+    .nom_menu1 {
+        font-family: 'Courgette', cursive;
+        margin-left: 70px;
+        margin-top: 5px;
+        color: rgb(61, 19, 25);
+        font-size: 37px;
+    }
+
+    .menu_type1 {
+        font-style: italic;
+        margin-left: 157px;
+        margin-top: 6px;
+        color: rgb(61, 19, 25);
+        font-size: 40px;
+    }
+
+    .note_musique {
+        margin-top: 200px;
+        margin-left: 175px;
+        height: 75px;
+        width: 85px;
+    }
+
+    .nom_menu2 {
+        font-family: 'Patrick Hand', cursive;
+        margin-left: 62px;
+        margin-top: 250px;
+        font-size: 40px;
+        background: -webkit-linear-gradient(-360deg, rgb(199, 116, 18), rgb(143, 90, 255));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .menu_type2 {
+        font-family: 'PT Serif', serif;
+        font-weight: bold;
+        margin-left: 150px;
+        font-size: 50px;
+        color: rgb(199, 116, 18);
+    }
+
+    .nom_menu3 {
+        font-family: 'Dancing Script', cursive;
+        margin-top: 250px;
+        margin-left: 65px;
+        font-size: 40px;
+        background: -webkit-linear-gradient(-360deg, rgb(0, 34, 168), rgb(87, 230, 255));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .menu_type3 {
+        font-family: 'Caveat', cursive;
+        margin-left: 148px;
+        font-size: 60px;
+        color: rgb(0, 34, 168);
+    }
+
+    .nom_menu4 {
+        font-family: 'Caveat', cursive;
+        font-weight: bold;
+        margin-top: 245px;
+        margin-left: 72px;
+        font-size: 45px;
+        background: -webkit-linear-gradient(360deg, rgb(73, 156, 64), rgb(128, 255, 0));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .menu_type4 {
+        font-family: 'Caveat', cursive;
+        margin-left: 150px;
+        font-size: 60px;
+        color: rgb(73, 156, 64);
+    }
+
+    .effect {
+        transform: scale(1);
+        transition: transform 1000ms ease-in-out;
+        opacity: 1;
+    }
+
+    .effect:hover {
+        transform: scale(1.10);
+        opacity: 0.70;
+    }
+
+    .prochainement {
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+        margin-top: 7%;
+        margin-bottom: 10%;
+        margin-left: 27%;
+        margin-right: 27%;
+        background-color: #579c87;
+        border: 1px solid #579c87;
+        border-radius: 18px;
+        color: #fdcb46
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #menus_haut,
+    #menus_bas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container {
+        height: 650px;
+        width: 425px;
+        margin-bottom: 80px;
+        margin-left: 98px;
+    }
+
+    .container2 {
+        height: 650px;
+        width: 425px;
+    }
+
+    .container3 {
+        height: 650px;
+        width: 425px;
+        margin-bottom: 80px;
+        margin-left: 98px;
+        margin-top: -22px;
+    }
+
+    .container4 {
+        height: 650px;
+        width: 425px;
+        margin-bottom: 80px;
+    }
+
+    .nom_menu1 {
+        font-family: 'Courgette', cursive;
+        margin-left: 70px;
+        margin-top: 5px;
+        color: rgb(61, 19, 25);
+        font-size: 37px;
+    }
+
+    .menu_type1 {
+        font-style: italic;
+        margin-left: 157px;
+        margin-top: 6px;
+        color: rgb(61, 19, 25);
+        font-size: 40px;
+    }
+
+    .note_musique {
+        margin-top: 200px;
+        margin-left: 175px;
+        height: 75px;
+        width: 85px;
+    }
+
+    .nom_menu2 {
+        font-family: 'Patrick Hand', cursive;
+        margin-left: 62px;
+        margin-top: 250px;
+        font-size: 40px;
+        background: -webkit-linear-gradient(-360deg, rgb(199, 116, 18), rgb(143, 90, 255));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .menu_type2 {
+        font-family: 'PT Serif', serif;
+        font-weight: bold;
+        margin-left: 150px;
+        font-size: 50px;
+        color: rgb(199, 116, 18);
+    }
+
+    .nom_menu3 {
+        font-family: 'Dancing Script', cursive;
+        margin-top: 250px;
+        margin-left: 65px;
+        font-size: 40px;
+        background: -webkit-linear-gradient(-360deg, rgb(0, 34, 168), rgb(87, 230, 255));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .menu_type3 {
+        font-family: 'Caveat', cursive;
+        margin-left: 148px;
+        font-size: 60px;
+        color: rgb(0, 34, 168);
+    }
+
+    .nom_menu4 {
+        font-family: 'Caveat', cursive;
+        font-weight: bold;
+        margin-top: 245px;
+        margin-left: 72px;
+        font-size: 45px;
+        background: -webkit-linear-gradient(360deg, rgb(73, 156, 64), rgb(128, 255, 0));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .menu_type4 {
+        font-family: 'Caveat', cursive;
+        margin-left: 150px;
+        font-size: 60px;
+        color: rgb(73, 156, 64);
+    }
+
+    .effect {
+        transform: scale(1);
+        transition: transform 1000ms ease-in-out;
+        opacity: 1;
+    }
+
+    .effect:hover {
+        transform: scale(1.10);
+        opacity: 0.70;
+    }
+
+    .prochainement {
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+        margin-top: 7%;
+        margin-bottom: 10%;
+        margin-left: 27%;
+        margin-right: 27%;
+        background-color: #579c87;
+        border: 1px solid #579c87;
+        border-radius: 18px;
+        color: #fdcb46
+    }
+
+}
+
+@media screen and (max-width: 320px){
+    #menus_haut,
+    #menus_bas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container {
+        height: 650px;
+        width: 425px;
+        margin-bottom: 80px;
+        margin-left: 98px;
+    }
+
+    .container2 {
+        height: 650px;
+        width: 425px;
+    }
+
+    .container3 {
+        height: 650px;
+        width: 425px;
+        margin-bottom: 80px;
+        margin-left: 98px;
+        margin-top: -22px;
+    }
+
+    .container4 {
+        height: 650px;
+        width: 425px;
+        margin-bottom: 80px;
+    }
+
+    .nom_menu1 {
+        font-family: 'Courgette', cursive;
+        margin-left: 70px;
+        margin-top: 5px;
+        color: rgb(61, 19, 25);
+        font-size: 37px;
+    }
+
+    .menu_type1 {
+        font-style: italic;
+        margin-left: 157px;
+        margin-top: 6px;
+        color: rgb(61, 19, 25);
+        font-size: 40px;
+    }
+
+    .note_musique {
+        margin-top: 200px;
+        margin-left: 175px;
+        height: 75px;
+        width: 85px;
+    }
+
+    .nom_menu2 {
+        font-family: 'Patrick Hand', cursive;
+        margin-left: 62px;
+        margin-top: 250px;
+        font-size: 40px;
+        background: -webkit-linear-gradient(-360deg, rgb(199, 116, 18), rgb(143, 90, 255));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .menu_type2 {
+        font-family: 'PT Serif', serif;
+        font-weight: bold;
+        margin-left: 150px;
+        font-size: 50px;
+        color: rgb(199, 116, 18);
+    }
+
+    .nom_menu3 {
+        font-family: 'Dancing Script', cursive;
+        margin-top: 250px;
+        margin-left: 65px;
+        font-size: 40px;
+        background: -webkit-linear-gradient(-360deg, rgb(0, 34, 168), rgb(87, 230, 255));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .menu_type3 {
+        font-family: 'Caveat', cursive;
+        margin-left: 148px;
+        font-size: 60px;
+        color: rgb(0, 34, 168);
+    }
+
+    .nom_menu4 {
+        font-family: 'Caveat', cursive;
+        font-weight: bold;
+        margin-top: 245px;
+        margin-left: 72px;
+        font-size: 45px;
+        background: -webkit-linear-gradient(360deg, rgb(73, 156, 64), rgb(128, 255, 0));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .menu_type4 {
+        font-family: 'Caveat', cursive;
+        margin-left: 150px;
+        font-size: 60px;
+        color: rgb(73, 156, 64);
+    }
+
+    .effect {
+        transform: scale(1);
+        transition: transform 1000ms ease-in-out;
+        opacity: 1;
+    }
+
+    .effect:hover {
+        transform: scale(1.10);
+        opacity: 0.70;
+    }
+
+    .prochainement {
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        margin-top: 7%;
+        margin-bottom: 10%;
+        margin-left: 25%;
+        margin-right: 25%;
+        background-color: #579c87;
+        border: 1px solid #579c87;
+        border-radius: 18px;
+        color: #fdcb46
+    }
+}
