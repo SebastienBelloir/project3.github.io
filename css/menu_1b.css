@@ -246,27 +246,37 @@ font-size: 24px;
 
 @media screen and (max-width: 500px){
     .container {
-        height: 1300px;
-        width: 400px;
+        height: 1250px;
+        width: 300px;
     }
 
-    h4{
+    h3{
         font-size: 22px;
+    }
+    
+
+    h4{
+        font-size: 19px;
     }
 
     h5{
-        font-size: 22px;
+        font-size: 18px;
     }
 
     .menu p{
-    font-size: 20px;
+    font-size: 18px;
     }
 
     .image_haut{
         margin-top: 20px;
         margin-bottom: 30px;
-        height: 60px;
-        width: 80px;
+        height: 40px;
+        width: 60px;
+    }
+
+    .image_bas{
+        height: 30px;
+        width: 45px;
     }
 
     .menu{
@@ -276,14 +286,14 @@ font-size: 24px;
     }
 
     .border_left{
-        width: 100px;
+        width: 68px;
         height: 9px;
     }
     
     .border_right{
-        width: 100px;
+        width: 68px;
         height: 8px;
-        margin-top: 13px;
+        margin-top: 9px;
     }
 
     .price{
