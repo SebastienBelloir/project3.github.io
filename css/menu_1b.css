@@ -1,0 +1,295 @@
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    height: 1050px;
+    width: 700px;
+    background-color: #fcdfdb;
+    border: 1px solid #fcdfdb;
+    box-shadow: 2px 0px 16px 0px grey
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    padding: 45px;
+    height: 1050px;
+    width: 700px;
+}
+
+h2 {
+    display: flex;
+    margin: auto;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    margin-top: 80px;
+}
+
+h3{
+    display: flex;
+    margin: auto;
+    margin-top: -30px;
+    margin-bottom: 50px;
+    font-family: 'Courgette', cursive;
+    font-size: 30px;
+    color: rgb(61, 11, 18);
+
+}
+
+h4{
+    display: flex;
+    margin: auto;
+    font-family: 'Caveat', cursive;
+    font-size: 31px;
+    color: rgb(68, 32, 37);
+
+}
+
+h5{
+    display: flex;
+    margin: auto;
+    margin-left: 0px;
+    font-family: 'Courgette', cursive;
+    font-size: 27px;
+    color: rgb(68, 32, 37);
+}
+
+.menu p{
+    font-family: 'Caveat', cursive;
+    font-size: 22px;
+    color: rgb(88, 49, 54) ;
+    margin-top: 5px;
+    padding: 0px 20px 0px 20px;
+}
+
+.title_border{
+    display: flex;
+    justify-content: space-between;
+}
+
+.border_left{
+    display: flex;
+    margin: auto;
+    width: 210px;
+}
+
+.border_right{
+    display: flex;
+    margin: auto;
+    width: 210px;
+    margin-top: 15px;
+}
+
+.image_haut{
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 80px;
+    width: 100px;
+}
+
+.image_bas{
+    display: flex;
+    margin: auto;
+    margin-right: 0px;
+    height: 45px;
+    width: 60px;
+}
+
+.bottom_style{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.titre_bot{
+    font-size: 25px;
+}
+
+.price{
+    float: right;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1260px) {
+    h2 {
+        font-size: 30px;
+        margin-top: 50px
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        height: 1200px;
+        width: 570px;
+    }
+    
+    h2 {
+        font-size: 25px;
+        margin-top: 50px;
+    }
+
+    h3{
+        font-size: 27px;
+    }
+    
+    h4{
+        font-size: 26px;
+    }
+
+    h5{
+        font-size: 24px;
+        
+    }
+
+    .image_bas{
+        height: 40px;
+        width: 55px;
+    }
+
+    .menu p{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-family: 'Caveat', cursive;
+        font-size: 21px;
+        
+    }
+
+    .image_haut{
+        height: 70px;
+        width: 90px;
+    }
+    
+    .border_left{
+        width: 160px;
+        height: 9px;
+    }
+    
+    .border_right{
+        width: 160px;
+        height: 8px;
+        margin-top: 14px;
+    }
+    
+    .price{
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .container {
+        margin-top: 30px;
+        margin-bottom: 50px;
+        height: 1400px;
+        width: 470px;
+    }
+    
+    h2 {
+        font-size: 21px;
+        margin-top: 40px;
+    }
+
+    h3{
+font-size: 24px;
+    }
+
+    h4{
+        font-size: 24px;
+    }
+
+    h5{
+        font-size: 24px;
+    }
+
+    .menu p{
+    font-size: 22px;
+    }
+
+    .menu{
+        display: flex;
+        flex-direction: column;
+        padding: 25px;
+        height: 1150px;
+        width: 570px;
+    }
+
+    .border_left{
+        width: 130px;
+        height: 9px;
+    }
+    
+    .border_right{
+        width: 130px;
+        height: 8px;
+        margin-top: 13px;
+    }
+
+    .price{
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .container {
+        height: 1300px;
+        width: 400px;
+    }
+
+    h4{
+        font-size: 22px;
+    }
+
+    h5{
+        font-size: 22px;
+    }
+
+    .menu p{
+    font-size: 20px;
+    }
+
+    .image_haut{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        height: 60px;
+        width: 80px;
+    }
+
+    .menu{
+        padding: 25px;
+        height: 1200px;
+        width: 400px;
+    }
+
+    .border_left{
+        width: 100px;
+        height: 9px;
+    }
+    
+    .border_right{
+        width: 100px;
+        height: 8px;
+        margin-top: 13px;
+    }
+
+    .price{
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+}

@@ -15,7 +15,8 @@ a {
 }
 
 header {
-    text-align: center;
+    display: flex;
+    justify-content: center;
     background-color: #579c87;
 }
 
@@ -113,8 +114,8 @@ footer {
     }
 
     footer{
-        padding: 8px 20px 8px 20px;
-        font-size: 28px;
+        padding: 7px 18px 7px 18px;
+        font-size: 26px;
     }
 }
 
@@ -139,7 +140,7 @@ footer {
     }
 
     h1{
-        font-size: 65px;
+        font-size: 50px;
     }
 
     footer{

@@ -1,0 +1,466 @@
+#menus_haut {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+#menus_bas {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.container {
+    height: 800px;
+    width: 565px;
+    background-color: #fcdfdb;
+    border: 1px solid #fcdfdb;
+    box-shadow: 2px 0px 16px 0px grey
+}
+
+.container2 {
+    height: 800px;
+    width: 565px;
+    background-color: rgb(255, 245, 254);
+    border: 1px solid rgb(255, 245, 254);
+    box-shadow: 2px 0px 16px 0px grey
+}
+
+.container3 {
+    height: 800px;
+    width: 565px;
+    background-color: rgb(241, 241, 241);
+    border: 1px solid rgb(241, 241, 241);
+    box-shadow: 2px 0px 16px 0px grey
+}
+
+.container4 {
+    height: 800px;
+    width: 565px;
+    background-color: white;
+    border: 1px solid white;
+    box-shadow: 2px 0px 16px 0px grey
+}
+
+.menus1_3,
+.menus2_4 {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    width: 565px;
+}
+
+.nom_menu1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Courgette', cursive;
+    color: rgb(61, 19, 25);
+    font-size: 37px;
+}
+
+.menu_type1 {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    color: rgb(61, 19, 25);
+    font-size: 55px;
+}
+
+.note_musique {
+    display: flex;
+    margin: auto;
+    margin-top: 260px;
+    height: 80px;
+    width: 90px;
+}
+
+.nom_menu2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 280px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 50px;
+    background: -webkit-linear-gradient(-45deg, rgb(199, 116, 18), rgb(143, 90, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.menu_type2 {
+    display: flex  ;
+    justify-content: center;
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: rgb(199, 116, 18);
+}
+
+.nom_menu3 {
+    display: flex;
+    justify-content: center ;
+    margin-top: 280px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    background: -webkit-linear-gradient(-360deg, rgb(0, 34, 168), rgb(87, 230, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.menu_type3 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Caveat', cursive;
+    font-size: 80px;
+    color: rgb(0, 34, 168);
+}
+
+.nom_menu4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 280px;
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+    font-size: 57px;
+    background: -webkit-linear-gradient(360deg, rgb(73, 156, 64), rgb(128, 255, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.menu_type4 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Caveat', cursive;
+    font-size: 80px;
+    color: rgb(73, 156, 64);
+}
+
+.effect {
+    transform: scale(1);
+    transition: transform 1000ms ease-in-out;
+    opacity: 1;
+}
+
+.effect:hover {
+    transform: scale(1.15);
+    opacity: 0.70;
+}
+
+.prochainement {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 450px;
+    margin-right: 450px;
+    background-color: #579c87;
+    border: 1px solid #579c87;
+    border-radius: 18px;
+    color: #fdcb46
+}
+
+.prochainement p{
+    font-size: 30px;
+
+}
+
+.suspension_anime:after {
+    display: inline-block;
+    animation: suspension steps(1, end) 2s infinite;
+    content: '';
+}
+
+@keyframes suspension {
+    0% {
+        content: '';
+    }
+
+    25% {
+        content: '.';
+    }
+
+    50% {
+        content: '..';
+    }
+
+    75% {
+        content: '...';
+    }
+
+    100% {
+        content: '';
+    }
+}
+
+@media screen and (max-width: 1260px) {
+    #menus_haut,
+    #menus_bas {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container {
+        display: flex;
+        margin: auto;
+        margin-bottom: 80px;
+    }
+
+    .container2{
+        display: flex;
+        margin: auto;
+        margin-bottom: 80px;
+    }
+
+    .container3 {
+        display: flex;
+        margin: auto;
+        margin-bottom: 80px;
+    }
+
+    .container4 {
+        display: flex;
+        margin: auto;
+        margin-bottom: 80px;
+    }
+    .prochainement {
+        margin-left: 27%;
+        margin-right: 27%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .menus1_3,
+.menus2_4 {
+    height: 650px;
+    width: 425px;
+}
+    
+    .container {
+        height: 650px;
+        width: 425px;
+    }
+
+    .container2 {
+        height: 650px;
+        width: 425px;
+    }
+
+    .container3 {
+        height: 650px;
+        width: 425px;
+       
+    }
+
+    .container4 {
+        height: 650px;
+        width: 425px;
+    }
+
+    .nom_menu1 {
+        font-family: 'Courgette', cursive;
+        color: rgb(61, 19, 25);
+        font-size: 37px;
+        
+    }
+
+    .menu_type1 {
+        font-style: italic;
+        color: rgb(61, 19, 25);
+        font-size: 40px;
+    }
+
+    .note_musique {
+        height: 75px;
+        width: 85px;
+        margin-top: 200px;
+    }
+
+    .nom_menu2 {
+        font-size: 40px;
+        margin-top: 260px;
+    }
+
+    .menu_type2 {
+        font-size: 50px;
+    }
+
+    .nom_menu3 {
+        font-size: 40px;
+        margin-top: 260px;
+    }
+
+    .menu_type3 {
+        font-size: 60px;
+        color: rgb(0, 34, 168);
+    }
+
+    .nom_menu4 {
+        font-size: 45px;
+        margin-top: 260px;
+    }
+
+    .menu_type4 {
+        font-size: 60px;
+        color: rgb(73, 156, 64);
+    }
+
+    .effect {
+        transform: scale(1);
+        transition: transform 1000ms ease-in-out;
+        opacity: 1;
+    }
+
+    .effect:hover {
+        transform: scale(1.10);
+        opacity: 0.70;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .menus1_3,
+    .menus2_4 {
+        height: 650px;
+        width: 425px;
+    }
+    
+    .container {
+        height: 650px;
+        width: 425px;
+    }
+
+    .container2 {
+        height: 650px;
+        width: 425px;
+    }
+
+    .container3 {
+        height: 650px;
+        width: 425px;
+    }
+
+    .container4 {
+        height: 650px;
+        width: 425px;
+    }
+
+    .nom_menu1 {
+        font-family: 'Courgette', cursive;
+        color: rgb(61, 19, 25);
+        font-size: 37px;
+    }
+
+    .menu_type1 {
+        font-style: italic;
+        color: rgb(61, 19, 25);
+        font-size: 40px;
+    }
+
+    .note_musique {
+        height: 75px;
+        width: 85px;
+    }
+
+    .nom_menu2 {
+        font-size: 40px;
+    }
+
+    .menu_type2 {
+        font-size: 50px;
+    }
+
+    .nom_menu3 {
+        font-size: 40px;
+        margin-top: 250px;
+    }
+
+    .menu_type3 {
+        font-size: 60px;
+    }
+
+    .nom_menu4 {
+        font-size: 45px;
+        margin-top: 250px;
+    }
+
+    .menu_type4 {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .menus1_3,
+.menus2_4 {
+    height: 500px;
+    width: 300px;
+}
+    .container {
+        height: 500px;
+        width: 300px;
+
+    }
+
+    .container2 {
+        height: 500px;
+        width: 300px;
+    }
+
+    .container3 {
+        height: 500px;
+        width: 300px;
+    }
+
+    .container4 {
+        height: 500px;
+        width: 300px;
+
+    }
+
+    .nom_menu1 {
+        font-size: 20px;
+    }
+
+    .menu_type1 {
+        font-size: 35px;
+    }
+
+    .note_musique {
+        margin-top: 160px;
+        height: 55px;
+        width: 65px;
+    }
+
+    .nom_menu2 {
+        font-size: 27px;
+        margin-top: 190px;
+    }
+
+    .menu_type2 {
+        font-size: 40px;
+    }
+
+    .nom_menu3 {
+        font-size: 30px;
+        margin-top: 190px;
+    }
+
+    .menu_type3 {
+        font-size: 50px;
+    }
+
+    .nom_menu4 {
+        font-size: 35px;
+        margin-top: 190px;
+    }
+
+    .menu_type4 {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        font-family: 'Caveat', cursive;
+        font-size: 50px;
+        color: rgb(73, 156, 64);
+    }
+
+    .prochainement p{
+        font-size: 18px;
+    }
+}
