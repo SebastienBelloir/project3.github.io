@@ -5,17 +5,37 @@ h2 {
 
 section {
     background-color: rgb(249, 249, 249);
-    text-align: justify;
-    margin: 3%;
+    margin: 50px;
 }
 
-article{
-    padding: 2%;
-    margin-bottom: 8%;
+article {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    padding: 30px;
+
 }
-.Page_principale{
-    padding-left: 4%;
+
+.la_loi {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
 }
-p {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+@media screen and (max-width: 768px) {
+   .la_loi{
+        font-size: 18px;
+    }
 }
+
+@media screen and (max-width: 600px) {
+    .la_loi{
+         font-size: 16px;
+     }
+ }
+
+ @media screen and (max-width: 320px) {
+    .la_loi{
+         font-size: 14px;
+     }
+ }

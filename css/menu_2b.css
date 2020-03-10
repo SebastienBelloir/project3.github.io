@@ -19,7 +19,7 @@ article {
 .menu{
     display: flex;
     flex-direction: column;
-    padding: 25px;
+    padding: 15px;
     height: 1050px;
     width: 700px;
 }
@@ -282,5 +282,63 @@ h4{
 
     .border_left, .border_right, .border_left2, .border_right2, .border_left3, .border_right3{
         width: 94px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    h3{
+        font-size: 35px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    h4{
+        font-size: 15px;
+    }
+
+    .menu p{
+        font-size: 14px;
+        padding: 0px 30px 0px 30px;
+    }
+
+    .container {
+        margin-top: 35px;
+        margin-bottom: 80px;
+        height: 1000px;
+        width: 270px;
+    }
+
+    .menu{
+        height: 1000px;
+        width: 270px;
+        padding: 5px;
+    }
+
+    .border_left, .border_right, .border_left2, .border_right2, .border_left3, .border_right3{
+        width: 45px;
+    }
+
+    .border_left{
+        height: 7px;
+    }
+
+    .border_right{
+        height: 12px;
+    }
+
+    .border_left2{
+        height: 10px;
+    }
+
+    .border_right2{
+        height: 14px;
+    }
+
+    .border_left3{
+        height: 9px;
+    }
+
+    .border_right3{
+        height: 14px;
     }
 }

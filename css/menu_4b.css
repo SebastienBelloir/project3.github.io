@@ -197,3 +197,46 @@ h4{
        font-size: 23px;
     }
 }
+
+@media screen and (max-width: 320px){
+    .container {
+        width: 270px;
+    }
+
+    h3{
+        font-size: 35px;
+        margin-bottom: 50px;
+    }
+
+    h4{
+        font-size: 19px;
+    }
+    
+    .border_left{
+        width: 70px;
+        margin-top: 12px;
+    }
+
+    .border_right{
+        width: 70px;
+        margin-top: 12px;
+    }
+
+    .texte_menu{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .menu{
+        width: 270px;
+    }
+
+    .menu p{
+        font-size: 17px;
+        padding: 0px 60px 0px 60px;
+    }
+    
+    .price{
+       font-size: 20px;
+    }
+}

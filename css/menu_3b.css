@@ -49,7 +49,7 @@ h4 {
     font-family: 'Caveat', cursive;
     font-size: 27px;
     font-weight: lighter;
-    
+
 }
 
 .menu p {
@@ -58,14 +58,14 @@ h4 {
     padding: 0px 90px 0px 90px;
 }
 
-.texte_menu{
+.texte_menu {
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
-.title_border{
+.title_border {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
 }
 
 .border_left {
@@ -128,7 +128,7 @@ h4 {
         height: 1300px;
         width: 580px;
     }
-    
+
     h2 {
         font-size: 28px;
         margin-top: 45px
@@ -136,15 +136,15 @@ h4 {
 
     h3 {
         font-size: 50px;
-        margin-top: 80px;
-        margin-bottom: 80px;
+        margin-top: 60px;
+        margin-bottom: 60px;
     }
 
     h4 {
         font-size: 27px;
     }
 
-   .menu p {
+    .menu p {
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -152,7 +152,7 @@ h4 {
         font-size: 22px;
     }
 
-    .texte_menu{
+    .texte_menu {
         margin-top: 15px;
         margin-bottom: 15px;
     }
@@ -203,7 +203,7 @@ h4 {
         width: 470px;
     }
 
-    h3{
+    h3 {
         font-size: 45px;
         margin-bottom: 65px;
     }
@@ -222,15 +222,20 @@ h4 {
         font-size: 21px;
     }
 
-    .border_left,.border_right,.border_left2,.border_right2,.border_left3,.border_right3{
+    .border_left,
+    .border_right,
+    .border_left2,
+    .border_right2,
+    .border_left3,
+    .border_right3 {
         width: 130px;
     }
 
-    .border_right{
+    .border_right {
         height: 16px;
     }
 
-    .border_right2{
+    .border_right2 {
         margin-top: 10px;
         height: 17px;
     }
@@ -281,6 +286,74 @@ h4 {
 
     .border_right3{
         margin-top: 8px;
+    }
+
+    .price {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container {
+        height: 1120px;
+        width: 270px;
+    }
+
+    h3 {
+        font-size: 30px;
+        margin-bottom: 55px;
+    }
+
+    h4 {
+        display: flex;
+        margin: auto;
+        font-size: 20px;
+    }
+
+    .menu {
+        height: 1120px;
+        width: 270px;
+    }
+
+    .menu p {
+        font-size: 18px;
+        padding: 0px 20px 0px 20px;
+    }
+
+    .border_left,
+    .border_right,
+    .border_left2,
+    .border_right2,
+    .border_left3,
+    .border_right3 {
+        width: 60px;
+    }
+
+    .border_left {
+        height: 15px;
+    }
+
+    .border_left2 {
+        height: 13px;
+    }
+
+    .border_right {
+        height: 11px;
+    }
+
+    .border_right2 {
+        margin-top: 9px;
+        height: 11px;
+    }
+
+    .border_left3 {
+        margin-top: 7px;
+        height: 15px;
+    }
+
+    .border_right3 {
+        margin-top: 8px;
+        height: 14px;
     }
 
     .price {

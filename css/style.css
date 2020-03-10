@@ -386,6 +386,38 @@
     }
 }
 
+@media screen and (max-width: 500px){
+    .menus1_3,
+    .menus2_4 {
+        height: 650px;
+        width: 370px;
+    }
+    
+    .container {
+        height: 650px;
+        width: 370px;
+    }
+
+    .container2 {
+        height: 650px;
+        width: 370px;
+    }
+
+    .container3 {
+        height: 650px;
+        width: 370px;
+    }
+
+    .container4 {
+        height: 650px;
+        width: 370px;
+    }
+
+    .nom_menu1 {
+        font-size: 33px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .menus1_3,
 .menus2_4 {
