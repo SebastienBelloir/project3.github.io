@@ -24,7 +24,6 @@ article {
 }
 
 h2{
-    display: flex;
     margin: auto;
     font-size: 35px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -33,18 +32,15 @@ h2{
 }
 
 h3{
-    display: flex;
+    text-align: center;
     font-family: 'Caveat', cursive;
     font-size: 70px;
-    margin: auto;
     background: -webkit-linear-gradient(-45deg, rgb(18, 122, 6), rgb(182, 255, 98));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    
 }
 
 h4{
-    display: flex;
     margin: auto;
     font-family: 'Caveat', cursive;
     font-weight: lighter;
@@ -65,17 +61,15 @@ h4{
 
 .title_border{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .border_left{
-    display: flex;
     margin: auto;
     width: 200px;
 }
 
 .border_right{
-    display: flex;
     margin: auto;
     width: 200px;
 }
@@ -84,6 +78,16 @@ h4{
     float: right;
     font-size: 25px;
     font-weight: bold;
+}
+
+.underline{
+    text-decoration: none;
+    background: linear-gradient(to top, rgb(98, 175, 67)4px, transparent 10.00%) no-repeat left bottom / 0 100%;
+    transition: background-size 1s cubic-bezier(1,-0.02,0,1.17);
+  }
+
+  .underline:hover{
+    background-size: 100% 100%;
 }
 
 @media screen and (max-width: 1260px){
@@ -166,7 +170,8 @@ h4{
 
 @media screen and (max-width: 500px){
     .container {
-        width: 400px;
+        height: 1350px;
+        width: 300px;
     }
 
     h3{
@@ -175,16 +180,16 @@ h4{
     }
 
     h4{
-        font-size: 21px;
+        font-size: 20px;
     }
     
     .border_left{
-        width: 120px;
+        width: 70px;
         margin-top: 10px;
     }
 
     .border_right{
-        width: 120px;
+        width: 70px;
         margin-top: 10px;
     }
 
@@ -193,8 +198,12 @@ h4{
         margin-bottom: 15px;
     }
     
+    .menu p{
+        font-size: 18px;
+    }
+
     .price{
-       font-size: 23px;
+       font-size: 21px;
     }
 }
 

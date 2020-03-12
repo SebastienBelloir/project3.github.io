@@ -90,10 +90,6 @@ footer {
 }
 
 @media screen and (max-width: 1260px){
-    body{
-        width: 100%;
-    }
-
     h1{
         font-size: 80px;
     }
@@ -105,10 +101,6 @@ footer {
 }
 
 @media screen and (max-width: 768px){
-    body{
-        width: 100%;
-    }
-
     h1{
         font-size: 75px;
     }
@@ -120,10 +112,6 @@ footer {
 }
 
 @media screen and (max-width: 600px){
-    body{
-        width: 100%;
-    }
-
     h1{
         font-size: 70px;
     }
@@ -134,17 +122,23 @@ footer {
     }
 }
 
-@media screen and (max-width: 320px){
-    body{
-        width: 100%;
+@media screen and (max-width: 400px) {
+    h1{
+        font-size: 55px;
     }
 
+    footer{
+        padding: 5px 15px 5px 15px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 320px){
     h1{
         font-size: 50px;
     }
 
     footer{
-        padding: 5px 15px 5px 15px;
         font-size: 15px;
     }
 }

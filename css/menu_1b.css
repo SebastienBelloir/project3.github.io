@@ -20,11 +20,10 @@ article {
     flex-direction: column;
     padding: 45px;
     height: 1050px;
-    width: 700px;
+    width: 800px;
 }
 
 h2 {
-    display: flex;
     margin: auto;
     font-size: 35px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -33,7 +32,6 @@ h2 {
 }
 
 h3{
-    display: flex;
     margin: auto;
     margin-top: -30px;
     margin-bottom: 50px;
@@ -44,7 +42,6 @@ h3{
 }
 
 h4{
-    display: flex;
     margin: auto;
     font-family: 'Caveat', cursive;
     font-size: 31px;
@@ -53,7 +50,6 @@ h4{
 }
 
 h5{
-    display: flex;
     margin: auto;
     margin-left: 0px;
     font-family: 'Courgette', cursive;
@@ -66,29 +62,28 @@ h5{
     font-size: 22px;
     color: rgb(88, 49, 54) ;
     margin-top: 5px;
-    padding: 0px 20px 0px 20px;
+    padding: 0px 40px 0px 40px;
 }
 
 .title_border{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .border_left{
-    display: flex;
     margin: auto;
     width: 210px;
+    height: 10px;
 }
 
 .border_right{
-    display: flex;
     margin: auto;
     width: 210px;
+    height: 10px;
     margin-top: 15px;
 }
 
 .image_haut{
-    display: flex;
     margin: auto;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -97,7 +92,6 @@ h5{
 }
 
 .image_bas{
-    display: flex;
     margin: auto;
     margin-right: 0px;
     height: 45px;
@@ -119,6 +113,16 @@ h5{
     font-weight: bold;
 }
 
+.underline{
+    text-decoration: none;
+    background: linear-gradient(to top,rgb(68, 32, 37)3px, transparent 10.00%) no-repeat left bottom / 0 100%;
+    transition: background-size 1s cubic-bezier(1,-0.02,0,1.17);
+  }
+  
+.underline:hover {
+    background-size: 100% 100%;
+}
+
 @media screen and (max-width: 1260px) {
     h2 {
         font-size: 30px;
@@ -129,7 +133,7 @@ h5{
 
 @media screen and (max-width: 768px) {
     .container {
-        height: 1200px;
+        height: 1300px;
         width: 570px;
     }
     
@@ -192,7 +196,7 @@ h5{
     .container {
         margin-top: 30px;
         margin-bottom: 50px;
-        height: 1400px;
+        height: 1470px;
         width: 470px;
     }
     
@@ -246,7 +250,7 @@ font-size: 24px;
 
 @media screen and (max-width: 500px){
     .container {
-        height: 1250px;
+        height: 1350px;
         width: 300px;
     }
 
@@ -306,7 +310,7 @@ font-size: 24px;
 
 @media screen and (max-width: 320px){
     .container {
-        height: 1250px;
+        height: 1330px;
         width: 270px;
     }
 
@@ -341,19 +345,20 @@ font-size: 24px;
 
     .menu{
         padding: 25px;
-        height: 1200px;
-        width: 400px;
+        height: 1330px;
+        width: 270px;
     }
 
     .border_left{
         width: 58px;
-        height: 9px;
+        height: 7px;
     }
     
     .border_right{
         width: 58px;
-        height: 8px;
+        height: 6px;
         margin-top: 9px;
+        margin-right: 0;
     }
 
     .price{
