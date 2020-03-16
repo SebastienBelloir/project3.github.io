@@ -82,7 +82,7 @@ h4{
 
 .underline{
     text-decoration: none;
-    background: linear-gradient(to top, rgb(98, 175, 67)4px, transparent 10.00%) no-repeat left bottom / 0 100%;
+    background: linear-gradient(to top, rgb(98, 175, 67)3px, transparent 10.00%) no-repeat left bottom / 0 100%;
     transition: background-size 1s cubic-bezier(1,-0.02,0,1.17);
   }
 
