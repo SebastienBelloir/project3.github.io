@@ -108,7 +108,8 @@
 .nom_menu4 {
     font-family: 'Caveat', cursive;
     font-weight: bold;
-    font-size: px;
+    font-size: 70px;
+    padding: 5px 0px 5px 0px;
     background: -webkit-linear-gradient(360deg, rgb(73, 156, 64), rgb(128, 255, 0));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
