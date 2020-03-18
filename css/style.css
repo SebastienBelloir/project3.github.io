@@ -109,7 +109,7 @@
     font-family: 'Caveat', cursive;
     font-weight: bold;
     font-size: 70px;
-    padding: 5px 0px 5px 0px;
+    padding: 0px 5px 0px 5px;
     background: -webkit-linear-gradient(360deg, rgb(73, 156, 64), rgb(128, 255, 0));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -129,14 +129,13 @@
     text-align: center;
     height: 100%;
     width: 100%;
-    transform: scale(1);
-    transition: transform 1000ms ease-in-out;
+    transition: 0.5s;
     opacity: 1;
 }
 
 .effect:hover {
     transform: scale(1.10);
-    opacity: 0.70;
+    opacity: 0.60;
 }
 
 h6{
