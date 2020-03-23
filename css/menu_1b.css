@@ -8,7 +8,6 @@ article {
     margin: auto;
     margin-top: 50px;
     margin-bottom: 80px;
-    height: 1050px;
     width: 700px;
     background-color: #fcdfdb;
     border: 1px solid #fcdfdb;
@@ -19,8 +18,7 @@ article {
     display: flex;
     flex-direction: column;
     padding: 45px;
-    height: 1050px;
-    width: 800px;
+    width: 700px;
 }
 
 h2 {
@@ -133,7 +131,6 @@ h5{
 
 @media screen and (max-width: 768px) {
     .container {
-        height: 1300px;
         width: 570px;
     }
     
@@ -194,7 +191,6 @@ h5{
 
 @media screen and (max-width: 600px){
     .container {
-        height: 1470px;
         width: 470px;
     }
     
@@ -223,7 +219,6 @@ font-size: 24px;
         display: flex;
         flex-direction: column;
         padding: 25px;
-        height: 1150px;
         width: 570px;
     }
 
@@ -248,7 +243,6 @@ font-size: 24px;
 
 @media screen and (max-width: 500px){
     .container {
-        height: 1350px;
         width: 300px;
     }
 
@@ -283,7 +277,6 @@ font-size: 24px;
 
     .menu{
         padding: 25px;
-        height: 1200px;
         width: 400px;
     }
 
@@ -308,7 +301,6 @@ font-size: 24px;
 
 @media screen and (max-width: 320px){
     .container {
-        height: 1330px;
         width: 270px;
     }
 
@@ -343,7 +335,6 @@ font-size: 24px;
 
     .menu{
         padding: 25px;
-        height: 1330px;
         width: 270px;
     }
 

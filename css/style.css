@@ -156,6 +156,8 @@ h6{
     display: inline-block;
     animation: suspension steps(1, end) 2s infinite;
     content: '';
+    width: 30px;
+    text-align: left;
 }
 
 @keyframes suspension {

@@ -9,8 +9,6 @@ article {
     margin: auto;
     margin-top: 50px;
     margin-bottom: 80px;
-    height: 1150px;
-    width: 700px;
     background-color: rgb(237, 239, 239);
     border: 1px solid rgb(237, 239, 239);
     box-shadow: 2px 0px 16px 0px grey
@@ -19,8 +17,6 @@ article {
 .menu {
     display: flex;
     flex-direction: column;
-    height: 1050px;
-    width: 700px;
 }
 
 h2 {
@@ -137,11 +133,6 @@ h4 {
 }
 
 @media screen and (max-width: 768px) {
-    .container {
-        height: 1300px;
-        width: 580px;
-    }
-
     h2 {
         font-size: 28px;
         margin-top: 45px
@@ -212,7 +203,6 @@ h4 {
 
 @media screen and (max-width: 600px) {
     .container {
-        height: 1120px;
         width: 470px;
     }
 
@@ -261,7 +251,6 @@ h4 {
 
 @media screen and (max-width: 500px){
     .container {
-        height: 1050px;
         width: 300px;
     }
 
@@ -324,7 +313,6 @@ h4 {
 
 @media screen and (max-width: 320px) {
     .container {
-        height: 1120px;
         width: 270px;
     }
 
@@ -340,7 +328,6 @@ h4 {
     }
 
     .menu {
-        height: 1120px;
         width: 270px;
     }
 }
