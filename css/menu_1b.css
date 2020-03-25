@@ -186,6 +186,8 @@ h5{
         display: flex;
         justify-content: center;
         font-weight: bold;
+        font-size: 23px;
+        margin: 20px 0px 10px 0px;
     }
 }
 
@@ -200,7 +202,7 @@ h5{
     }
 
     h3{
-font-size: 24px;
+        font-size: 24px;
     }
 
     h4{
@@ -234,10 +236,8 @@ font-size: 24px;
     }
 
     .price{
-        display: flex;
-        justify-content: center;
-        font-weight: bold;
-        margin-bottom: 10px;
+        font-size: 20px;
+        margin: 10px 0px 10px 0px;
     }
 }
 
@@ -290,13 +290,6 @@ font-size: 24px;
         height: 8px;
         margin-top: 9px;
     }
-
-    .price{
-        display: flex;
-        justify-content: center;
-        font-weight: bold;
-        margin-bottom: 10px;
-    }
 }
 
 @media screen and (max-width: 320px){
@@ -310,7 +303,7 @@ font-size: 24px;
     
 
     h4{
-        font-size: 17px;
+        font-size: 19px;
     }
 
     h5{
@@ -339,21 +332,14 @@ font-size: 24px;
     }
 
     .border_left{
-        width: 58px;
-        height: 7px;
+        width: 50px;
+        height: 5px;
     }
     
     .border_right{
-        width: 58px;
-        height: 6px;
-        margin-top: 9px;
+        width: 50px;
+        height: 5px;
+        margin-top: 10px;
         margin-right: 0;
-    }
-
-    .price{
-        display: flex;
-        justify-content: center;
-        font-weight: bold;
-        margin-bottom: 10px;
     }
 }

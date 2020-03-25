@@ -36,7 +36,6 @@ h3 {
     background: -webkit-linear-gradient(-45deg, rgb(170, 98, 16), rgb(143, 90, 255));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-top: 80px;
 }
 
 h4 {
@@ -202,12 +201,10 @@ h4 {
 
     .price,
     .price2 {
-        display: flex;
-        justify-content: center;
-        font-weight: bold;
-        margin-top: 7px;
+        font-weight: 900;
+        margin-top: 20px;
+        font-size: 19px;
     }
-
 }
 
 @media screen and (max-width: 600px) {
@@ -238,7 +235,7 @@ h4 {
         width: 80px;
     }
 
-    .px_m1::after{
+    .px_m1::after {
         display: inline-block;
         content: '';
         margin-bottom: 3px;
@@ -256,8 +253,8 @@ h4 {
         border-bottom: 5px solid rgb(168, 92, 153);
         width: 80px;
     }
-    
-    .px_m2::after{
+
+    .px_m2::after {
         display: inline-block;
         content: '';
         margin-bottom: 3px;
@@ -266,7 +263,7 @@ h4 {
         border-radius: 5px;
         width: 80px;
     }
-    
+
     .px_m3::before {
         display: inline-block;
         content: '';
@@ -276,7 +273,7 @@ h4 {
         width: 80px;
     }
 
-    .px_m3::after{
+    .px_m3::after {
         display: inline-block;
         content: '';
         margin-bottom: 3px;
@@ -302,6 +299,11 @@ h4 {
     .border_right3 {
         display: none;
     }
+
+    .price,
+    .price2 {
+        font-size: 17px;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -310,9 +312,9 @@ h4 {
     }
 
     h3 {
-        font-size: 37px;
+        font-size: 35px;
         margin-top: 50px;
-        margin-bottom: 40px;
+        margin-bottom: 50px;
     }
 
     h4 {
@@ -332,49 +334,49 @@ h4 {
         width: 30px;
     }
 
-    .px_m1::after{
+    .px_m1::after {
         width: 30px;
     }
 
     .px_m2::before {
         width: 30px;
     }
-    
-    .px_m2::after{
+
+    .px_m2::after {
         width: 30px;
     }
-    
+
     .px_m3::before {
         width: 30px;
     }
 
-    .px_m3::after{
+    .px_m3::after {
         width: 30px;
     }
+
+
 }
 
-    @media screen and (max-width: 320px) {
-        .container {
-            width: 270px;
-        }
+@media screen and (max-width: 320px) {
+    .container {
+        width: 270px;
+    }
 
-        h3 {
-            font-size: 35px;
-            margin-top: 30px;
-            margin-bottom: 30px;
-        }
+    h3 {
+        font-size: 35px;
+    }
 
-        h4 {
-            font-size: 15px;
-        }
+    h4 {
+        font-size: 15px;
+    }
 
-        .menu p {
-            font-size: 14px;
-            padding: 0px 30px 0px 30px;
-        }
+    .menu p {
+        font-size: 14px;
+        padding: 0px 30px 0px 30px;
+    }
 
-        .menu {
-            width: 270px;
-            padding: 5px;
-        }
+    .menu {
+        width: 270px;
+        padding: 5px;
+    }
 }
