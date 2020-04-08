@@ -1,3 +1,5 @@
+/*Common parts of all web pages*/
+
 html {
     height: 100%;
 }
@@ -12,7 +14,7 @@ body {
 
 a {
     color: #fdcb46;
-    text-decoration: none
+    text-decoration: none;
 }
 
 header {
@@ -40,9 +42,10 @@ footer {
     margin-top: auto;
 }
 
+/*Wiggle animation*/
+
 .wiggle:hover {
-    animation: shake 0.5s;
-    animation-iteration-count: infinite
+    animation: shake 0.5s infinite;
 }
 
 @keyframes shake {
@@ -90,6 +93,8 @@ footer {
         transform: translate(1px, -2px) rotate(-1deg)
     }
 }
+
+/*Media queries with several breakpoints*/
 
 @media screen and (max-width: 1260px){
     h1{

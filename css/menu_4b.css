@@ -1,3 +1,5 @@
+/*CSS attributes menu 4*/
+
 article {
     display: flex;
     margin: auto;
@@ -78,15 +80,19 @@ h4{
     font-weight: bold;
 }
 
+/*Underline animation*/
+
 .underline{
     text-decoration: none;
     background: linear-gradient(to top, rgb(98, 175, 67)3px, transparent 10.00%) no-repeat left bottom / 0 100%;
-    transition: background-size 1s cubic-bezier(1,-0.02,0,1.17);
+    transition: background-size 1s cubic-bezier(.74,.08,.74,.64);
   }
 
   .underline:hover{
     background-size: 100% 100%;
 }
+
+/*Media queries with several breakpoints*/
 
 @media screen and (max-width: 1260px){
     h2 {

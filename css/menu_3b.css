@@ -1,3 +1,5 @@
+/*CSS attributes menu 3*/
+
 article {
     display: flex;
     margin: auto;
@@ -101,27 +103,31 @@ h4 {
     font-size: 25px;
 }
 
+/*Underline animation*/
+
 .underline{
     text-decoration: none;
     background: linear-gradient(to top, rgb(0, 34, 168)3px, transparent 10.00%) no-repeat left bottom / 0 100%;
-    transition: background-size 1s cubic-bezier(1,-0.02,0,1.17);
+    transition: background-size 1s cubic-bezier(.74,.08,.74,.64);
   }
 
   .underline2{
     text-decoration: none;
     background: linear-gradient(to top, rgb(44, 76, 202)3px, transparent 10.00%) no-repeat left bottom / 0 100%;
-    transition: background-size 1s cubic-bezier(1,-0.02,0,1.17);
+    transition: background-size 1s cubic-bezier(.74,.08,.74,.64);
   }
 
   .underline3{
     text-decoration: none;
     background: linear-gradient(to top, rgb(57, 116, 243)3px, transparent 10.01%) no-repeat left bottom / 0 100%;
-    transition: background-size 1s cubic-bezier(1,-0.02,0,1.17);
+    transition: background-size 1s cubic-bezier(.74,.08,.74,.64);
   }
   
 .underline:hover, .underline2:hover, .underline3:hover {
     background-size: 100% 100%;
 }
+
+/*Media queries with several breakpoints*/
 
 @media screen and (max-width: 1260px) {
     h2 {

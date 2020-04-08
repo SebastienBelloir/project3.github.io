@@ -1,3 +1,5 @@
+/*CSS attributes for home page*/
+
 #menus_haut {
     display: flex;
     justify-content: space-evenly;
@@ -121,23 +123,6 @@
     color: rgb(73, 156, 64);
 }
 
-.effect {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 100%;
-    width: 100%;
-    transition: 0.5s;
-    opacity: 1;
-}
-
-.effect:hover {
-    transform: scale(1.10);
-    opacity: 0.60;
-}
-
 h6{
     font-size: 40px;
     text-align: center;
@@ -151,6 +136,25 @@ h6{
     margin-bottom: 100px;
     margin-top: 100px;
 }
+
+/*Main animation of menus*/
+
+.effect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.effect:hover {
+    transform: scale(1.10);
+    opacity: 0.60;
+}
+
+/*Dots animation*/
 
 .suspension_anime:after {
     display: inline-block;
@@ -181,6 +185,8 @@ h6{
         content: '';
     }
 }
+
+/*Media queries with several breakpoints*/
 
 @media screen and (max-width: 1260px) {
     #menus_haut,
