@@ -288,14 +288,15 @@ h5{
     }
 
     .border_left{
-        width: 68px;
+        width: 60px;
         height: 9px;
     }
     
     .border_right{
-        width: 68px;
+        width: 60px;
         height: 8px;
         margin-top: 9px;
+        margin-left: auto;
     }
 }
 
